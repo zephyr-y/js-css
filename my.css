@@ -205,3 +205,15 @@ body.mobile .button_hover{display:none}
 .tl_textfield:focus::-webkit-input-placeholder{opacity:.5}
 .tl_textfield:focus::-moz-placeholder{opacity:.5}
 .tl_textfield:focus:-ms-input-placeholder{opacity:.5}
+
+/* 当屏幕宽度小于 690px 时，应用以下样式 */
+@media screen and (max-width: 690px) {
+  .tl_article .tl_article_content img {
+    /* 设置图片最小宽度为 690px */
+    min-width: 690px;
+    /* 确保图片宽度可以适应其容器宽度 */
+    max-width: 100%;
+    /* 图片高度自动调整以保持原始纵横比 */
+    height: auto;
+  }
+}
