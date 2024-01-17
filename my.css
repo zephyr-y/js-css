@@ -149,7 +149,7 @@ body.mobile .button_hover{display:none}
 .tl_article .tl_article_content figcaption,.tl_article .tl_article_content figcaption .editable_input{font-family:CustomSansSerif,'Lucida Grande',Arial,sans-serif;font-size:15px;color:#79828B;padding:12px 21px 0;line-height:18px;vertical-align:top;text-align:center}
 .tl_article .tl_article_content figcaption .editable_input{width:100%;border:none;padding:0;margin:0}
 .tl_article .tl_article_content .figure_wrapper{position:relative}
-.tl_article .tl_article_content .figure_wrapper img,.tl_article .tl_article_content .figure_wrapper video{opacity:1;transition:opacity .15s ease;max-height:690px}
+.tl_article .tl_article_content .figure_wrapper img,.tl_article .tl_article_content .figure_wrapper video{opacity:1;transition:opacity .15s ease}
 .tl_article .tl_article_content .figure_wrapper.loading img,.tl_article .tl_article_content .figure_wrapper.loading video{opacity:.3}
 .tl_article .tl_article_content .figure_wrapper .file_progress{position:absolute;z-index:1;bottom:0;left:0;right:0;padding:3px;background-color:rgba(255,255,255,.7);transition:opacity .15s ease;visibility:hidden;opacity:0}
 .tl_article .tl_article_content .figure_wrapper.loading .file_progress{visibility:visible;opacity:1}
